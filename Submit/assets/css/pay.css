@@ -1,0 +1,256 @@
+html {
+	font-size:62.5%;
+	font-family:'helvetica neue',tahoma,arial,'hiragino sans gb','microsoft yahei','Simsun',sans-serif
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,hr {
+	margin:0;
+	padding:0 2px
+}
+body {
+	line-height:1.333;
+	font-size:12px
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-family:arial,'hiragino sans gb','microsoft yahei','Simsun',sans-serif
+}
+input,textarea,select,button {
+	font-size:12px;
+	font-weight:normal
+}
+input[type="button"],input[type="submit"],select,button {
+	cursor:pointer
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal
+}
+li {
+	list-style:none
+}
+caption,th {
+	text-align:left
+}
+q:before,q:after {
+	content:''
+}
+abbr,acronym {
+	border:0;
+	font-variant:normal
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+fieldset,img,a img,iframe {
+	border-width:0;
+	border-style:none
+}
+img {
+	-ms-interpolation-mode:bicubic
+}
+textarea {
+	overflow-y:auto
+}
+legend {
+	color:#000
+}
+a:link,a:visited {
+	text-decoration:none
+}
+hr {
+	height:0
+}
+label {
+	cursor:pointer
+}
+a {
+	color:#328ce5
+}
+a:hover {
+	color:#2b8ae8;
+	text-decoration:none
+}
+a:focus {
+	outline:none
+}
+body,.body {
+	background:#f7f7f7;
+	height:100%;
+	max-width:640px;
+	min-width:300px;
+	min-height:100%;
+	margin:0 auto
+}
+.mod-title {
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+	background:#fff
+}
+.ico_log {
+	display:inline-block;
+	width:130px;
+	height:38px;
+	vertical-align:middle;
+	margin-right:7px
+}
+.ico-alipay {
+	background:url("/images/6zKWNp.jpg") no-repeat;
+	background-size:cover
+}
+.ico-weixin {
+	background:url("./GDuEzU.jpg") no-repeat;
+	background-size:cover
+}
+.ico-unionpay {
+	background:url("/images/o0PHti.png") no-repeat;
+	background-size:cover
+}
+.mod-ct {
+	min-width:300px;
+	max-width:640px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:15px;
+	padding-bottom:10px;
+	background:#fff url("./wave.png") top center repeat-x;
+	text-align:center;
+	color:#333;
+	border:1px solid #e5e5e5;
+	border-top:none
+}
+.mod-ct .amount {
+	font-size:32px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight:bold
+}
+h1 {
+	font-family:"微软雅黑";
+	font-size:15px;
+	margin:5px 0;
+	padding-bottom:2px;
+	letter-spacing:2px
+}
+.time-item strong {
+	background:#3ec742;
+	color:#fff;
+	line-height:25px;
+	font-size:15px;
+	font-family:Arial;
+	padding:0 10px;
+	margin-right:10px;
+	border-radius:5px;
+	box-shadow:1px 1px 3px rgba(0,0,0,.2)
+}
+.warringMsg {
+	font-size:20px;
+	color:#00c800;
+	font-weight:bold;
+	margin-top:5px
+}
+.msgPrefix {
+	font-size:17px;
+	color:#000;
+	font-weight:bold;
+	margin-top:5px
+}
+.moneyMsg {
+	font-size:22px;
+    font-weight: bold;
+    color: red; 
+    cursor: pointer;
+}
+.tip {
+    margin-top: 10px; 
+    text-align: left;
+     width: 94%; 
+     margin: 15px auto; 
+     font-size: 14px;
+     color:#000;
+}
+.appcenter {
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto
+}
+.appcenter a {
+	border:1px solid #562;
+	color:#01a9f4;
+	font-weight:400;
+	cursor:pointer;
+	display:inline-block;
+	padding:10px 14px 9pt;
+	line-height:1em;
+	text-decoration:none;
+	border-radius:4px;
+	font-size:12pt;
+	box-shadow:inset 0 0 0 1px #fff,0 1px 1px rgba(241,223,219,.1)!important;
+	background:0 0
+}
+.appcenter span {
+	color:red;
+	font-weight:400;
+	display:inline-block;
+	padding:5px 14px 9pt;
+	line-height:1.4em;
+	text-decoration:none;
+	border-radius:4px;
+	font-size:12pt;
+	box-shadow:inset 0 0 0 1px #fff,0 1px 1px rgba(241,223,219,.1)!important;
+	background:0 0
+}
+.hidden{ display: none;}
+.mt_agree {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background: rgba(0%,0%,0%,0.3);
+     display: none; 
+}
+.mt_agree .mt_agree_main {
+    width: 500px;
+    margin-left: -250px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    background: #fff;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.mt_agree h2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #0568a4;
+}
+.mt_agree p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+.mt_agree a.close_btn {
+    display: block;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px auto;
+    background: #0568a4;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}

@@ -1,0 +1,1 @@
+function t(t){if(!t)return"-";const e=new Date(1e3*t),n=t=>String(t).padStart(2,"0");return`${e.getFullYear()}-${n(e.getMonth()+1)}-${n(e.getDate())} ${n(e.getHours())}:${n(e.getMinutes())}:${n(e.getSeconds())}`}function e(t){if(!t)return 0;const e=Math.floor(Date.now()/1e3);return Math.max(0,Math.ceil((t-e)/86400))}export{t as f,e as r};

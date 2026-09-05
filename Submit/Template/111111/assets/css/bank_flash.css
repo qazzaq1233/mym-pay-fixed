@@ -1,0 +1,93 @@
+@-webkit-keyframes flash {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        color: #ff0000;
+        font-size: 18px;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes flash {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        color: #ff0000;
+        font-size: 18px;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.flash{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #0000ff;
+    -webkit-animation:flash 1.5s infinite  cubic-bezier(1,0,0.5,0) ;
+    animation:flash 1.5s infinite  cubic-bezier(1,0,0.5,0) ;
+}
+
+
+ #newslist{
+
+  background:#f8f8f8;border:1px solid silver;padding:1px;height:22px;line-height:20px;width:70%;    
+  margin:0 auto;
+  text-align: center;
+
+ }
+
+ #contain{
+
+  font-size:12px;overflow:hidden;list-style:none;height:22px;margin:0px;padding:0;
+
+ }
+
+ #contain div{
+
+  height:22px;line-height:10px;white-space:nowrap;overflow:hidden;padding-left:5px;
+
+ }
+ 
+ 
+  #bank_Query {
+            font-size: 16px;
+            margin: 0;
+            background: -webkit-linear-gradient(left,
+                    #ffffff,
+                    #ff0000 6.25%,
+                    #ff7d00 12.5%,
+                    #ffff00 18.75%,
+                    #00ff00 25%,
+                    #00ffff 31.25%,
+                    #0000ff 37.5%,
+                    #ff00ff 43.75%,
+                    #ffff00 50%,
+                    #ff0000 56.25%,
+                    #ff7d00 62.5%,
+                    #ffff00 68.75%,
+                    #00ff00 75%,
+                    #00ffff 81.25%,
+                    #0000ff 87.5%,
+                    #ff00ff 93.75%,
+                    #ffff00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            animation: masked-animation 3s infinite linear;
+        }
+
+        @keyframes masked-animation {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: -100%, 0;
+            }
+        }
